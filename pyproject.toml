@@ -1,0 +1,21 @@
+[project]
+name = "incentive-societies-research"
+version = "0.1.0"
+description = "Research on incentive-compatible societies for truthful meta-knowledge"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.72.0",
+    "datasets>=4.4.1",
+    "matplotlib>=3.10.7",
+    "numpy>=2.2.6",
+    "openai>=2.7.1",
+    "pandas>=2.3.3",
+    "scipy>=1.15.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]

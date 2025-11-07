@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "timestamp": "2025-11-07T15:31:51.897899",
+  "models": [
+    "gpt-4o",
+    "claude-sonnet-4-5"
+  ],
+  "dataset": "TruthfulQA",
+  "n_test_questions": 100,
+  "n_seeds": 3,
+  "mechanisms": [
+    "baseline",
+    "audit",
+    "safety"
+  ],
+  "temperature": 0.7,
+  "max_tokens": 1000,
+  "model_used": "openai/gpt-4o"
+}
